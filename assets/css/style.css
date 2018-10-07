@@ -1,8 +1,8 @@
-*{
+/**{
 	border:0;
 	margin:0;
 	padding:0;
-}
+}*/
 
 #main{
 	float:left;
@@ -35,4 +35,46 @@
 	text-decoration:none;
 	float:left;
 }
+#main{
+	clear:both;
+	margin-left:5%;
+	width:80%;
+	height:420px;
+	background-image:url("../images/white-1866105_640.jpg");
+}
+#content{
+	background-color:white;
+	margin-top:20px;
+	margin-left:20px;
+	width:70%;
+	height:300px;
+}
+#contact{
+	background-color:white;
+	margin-top:20px;
+	margin-left:40px;
+	width:60%;
+	height:200px;
+}
+#portfolio{
+	background-color:white;
+	margin-top:20px;
+	margin-left:40px;
+	width:60%;
+	height:200px;
+}
+#about{
+	padding-top:35px;
+	margin-left:20px;
+	color:#4aaaa5;
+	font-weight:bold;
+}
+
+#desc{
+	float:left;
+	margin-left:35px;
+	margin-right:35px;
+}
+
+
 
