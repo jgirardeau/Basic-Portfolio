@@ -52,7 +52,7 @@ html{
 	margin-top:20px;
 	margin-left:20px;
 	width:860px;
-	height:300px;
+	height:340px;
 }
 #contact{
 	background-color:white;
@@ -82,5 +82,9 @@ html{
 	margin-right:35px;
 }
 
+#button{
+	color:white;
+	background-color:#4aaaa5;
+}
 
 
