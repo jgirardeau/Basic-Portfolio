@@ -3,36 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <title>Jim Girardeau</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
 </head>
 <body>
-<section id="links">
-		<p id=name>Jim Girardeau</p>
-		<a class=header href="index.html">About</a>
-		<p class=header>|</p>
-		<a class=header href="contact.html">Contact</a>
-		<p class=header>|</p>
-		<a class=header href="portfolio.html">Portfolio</a>
-	</section>
-	<section id="main">
-		<div id="content">
-			<p id="about">Contact Me </p>			
-			<hr width=820>
-			<div id=desc>
-				<form>
-					 Name:<br>
- 					 <input type="text" name="" value="" style="width:400px;">
-					  <br>
-					  Email:<br>
-					  <input type="text" name="" value="" style="width:400px">
-					  <br>
-					  Message:<br>
-					  <input type="" value="" style="width:400px;height:100px;">
-				</form>
-				<br>
-				<button id=button>Submit</button>
+	<header>
+		<a href="index.html" id="logo">Jim Girardeau</a>
+		<nav>
+			<a href="index.html">About</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</header>
+	<div id="main-container" class="conatiner">
+		<section class="main-container">
+			<h1>Contact</h1>	
+			<form =id="contact-form">
+				<ul>
+					<li>
+						<label form="name">Name</label>
+						<input type="text" name="name" id="name" placeholder="John Smith" required="required">
+					</li> 
+					<li>
+						<label form="email">Name</label>
+						<input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+					</li> 
+					<li>
+						<label form="message">Message</label>
+						<textarea type="text" name="message" id="message" required="required">
+						</textarea>
+					</li> 
+				</ul>
+				<input type="submit" name="submit">
+		</section>
+		<section class="sidebar">
+			<img src="assets/images/github_square-128.png" class="social" alt="Github">
+			<img src="assets/images/social-linkedin-square1-128.png" class="social" alt="Linkedin">
+			<img src="assets/images/1-04-4-128.png" class="social" alt="Stack Overflow">
+		</section>
+		<footer>
+			<div class="container">
+				&copy; Copywrite 2018 Jim Girardeau
 			</div>
-		</div>
-	</section>
+		</footer>
+	</div>
 </body>
 </html>
